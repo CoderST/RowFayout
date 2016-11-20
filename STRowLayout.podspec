@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "STRowLayout"
-  s.version      = "0.0.1"
+  s.version      = "1.0.0"
   s.summary      = "STRowLayout For OC."
 
   # This description is used to generate tags and improve search results.
@@ -28,7 +28,7 @@ Pod::Spec.new do |s|
   Row FollowLayout For OC
                    DESC
 
-  s.homepage     = "http://EXAMPLE/STRowLayout"
+  s.homepage     = "https://github.com/CoderST/RowFayout"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -91,8 +91,8 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "STRowLayout", "STRowLayout/**/*.{h,m}"
-  s.exclude_files = "STRowLayout/Exclude"
+  s.source_files  = "RowFayout", "*.{h,m}"
+  # s.exclude_files = "https://github.com/CoderST/RowFayout/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
 
