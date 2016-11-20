@@ -14,6 +14,7 @@
 		0FD3535B1DE079A00049753A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0FD3535A1DE079A00049753A /* Assets.xcassets */; };
 		0FD3535E1DE079A00049753A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0FD3535C1DE079A00049753A /* LaunchScreen.storyboard */; };
 		0FD353691DE079A00049753A /* STRowFlowLayoutUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FD353681DE079A00049753A /* STRowFlowLayoutUITests.m */; };
+		0FD353751DE156FC0049753A /* STRowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FD353741DE156FC0049753A /* STRowLayout.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		0FD353641DE079A00049753A /* STRowFlowLayoutUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = STRowFlowLayoutUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0FD353681DE079A00049753A /* STRowFlowLayoutUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = STRowFlowLayoutUITests.m; sourceTree = "<group>"; };
 		0FD3536A1DE079A00049753A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0FD353731DE156FC0049753A /* STRowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STRowLayout.h; sourceTree = "<group>"; };
+		0FD353741DE156FC0049753A /* STRowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STRowLayout.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +84,8 @@
 		0FD3534D1DE079A00049753A /* STRowFlowLayout */ = {
 			isa = PBXGroup;
 			children = (
+				0FD353731DE156FC0049753A /* STRowLayout.h */,
+				0FD353741DE156FC0049753A /* STRowLayout.m */,
 				0FD353511DE079A00049753A /* AppDelegate.h */,
 				0FD353521DE079A00049753A /* AppDelegate.m */,
 				0FD353541DE079A00049753A /* ViewController.h */,
@@ -212,6 +217,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0FD353561DE079A00049753A /* ViewController.m in Sources */,
+				0FD353751DE156FC0049753A /* STRowLayout.m in Sources */,
 				0FD353531DE079A00049753A /* AppDelegate.m in Sources */,
 				0FD353501DE079A00049753A /* main.m in Sources */,
 			);
