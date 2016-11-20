@@ -1,5 +1,4 @@
 Pod::Spec.new do |s|
-Pod::Spec.new do |s|
 # 项目名称
 s.name         = 'STRowLayout' 
 # 描述一下项目的作用
