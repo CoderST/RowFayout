@@ -46,7 +46,6 @@ static  NSString *cellIdentifier = @"cellIdentifier";
     }
 
 - (void)buttonClick{
-    
     TestModel *model = [[TestModel alloc] init];
     // 2 创建数据
     model.width = arc4random() % 50 + 50;
