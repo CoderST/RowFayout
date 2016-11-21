@@ -1,0 +1,474 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		50895D13E01A02D1495368A4E0959019 /* Pods-STRowFlowLayout-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C052BE401FB7DF153C7F51C5ED0A68C /* Pods-STRowFlowLayout-dummy.m */; };
+		5EBBA3C020474711F3E76BDC76257DD0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
+		6CF2E3F0B26F544700D55D77A9A700A8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
+		9C8C9333B42875EA270D674FE60E9E97 /* STRowLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 1CB2C5507B6E9F7F73074CCB83633E3B /* STRowLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D81A81FF9212E4D5B96C44C347C17102 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EC994CDC2D681BA26389F78A7E4B325 /* UIKit.framework */; };
+		DD81E7D3AF9F407344004A94AA3C5242 /* STRowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C49A318272AFAE9BB430B6CB8B192C3 /* STRowLayout.m */; };
+		FAEF5BBD9E70E8C7D5F569CE278D62FE /* STRowLayout-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F8115084FEB9E0F5F81DD8FE17611F35 /* STRowLayout-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6E4C06FA502014C1D492E9282B4FCC7C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8B57B060750692FC652AC19E9CA9B547;
+			remoteInfo = STRowLayout;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0892FF039F38732005C52A1104364AD5 /* libPods-STRowFlowLayout.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-STRowFlowLayout.a"; path = "libPods-STRowFlowLayout.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C052BE401FB7DF153C7F51C5ED0A68C /* Pods-STRowFlowLayout-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-STRowFlowLayout-dummy.m"; sourceTree = "<group>"; };
+		1CB2C5507B6E9F7F73074CCB83633E3B /* STRowLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = STRowLayout.h; path = STRowLayout/STRowLayout.h; sourceTree = "<group>"; };
+		235ABC32B2A2CA799EB9964D0FE1F34A /* libSTRowLayout.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libSTRowLayout.a; path = libSTRowLayout.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C1CB68A8B3CAA4B116DA8A9677D7835 /* Pods-STRowFlowLayout.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-STRowFlowLayout.debug.xcconfig"; sourceTree = "<group>"; };
+		5C49A318272AFAE9BB430B6CB8B192C3 /* STRowLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = STRowLayout.m; path = STRowLayout/STRowLayout.m; sourceTree = "<group>"; };
+		616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7EC994CDC2D681BA26389F78A7E4B325 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		7FAA6C9C53BE689931EE02DD4E1DDD62 /* Pods-STRowFlowLayout-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-STRowFlowLayout-resources.sh"; sourceTree = "<group>"; };
+		8024207A1530CDE097F87EE8A7DA593D /* Pods-STRowFlowLayout-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-STRowFlowLayout-frameworks.sh"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A3B15634C38FF485107245C4481A892D /* Pods-STRowFlowLayout.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-STRowFlowLayout.release.xcconfig"; sourceTree = "<group>"; };
+		BA9D8E7C17A3FE12AAB53F5C6C72AA1C /* Pods-STRowFlowLayout-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-STRowFlowLayout-acknowledgements.plist"; sourceTree = "<group>"; };
+		E2708FC8DC6300C0E3EADE9389A2D70C /* STRowLayout-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "STRowLayout-prefix.pch"; sourceTree = "<group>"; };
+		F2FF6F73B185EB019A4E58AFCCD37913 /* Pods-STRowFlowLayout-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-STRowFlowLayout-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F7FDCEABCE09D08342F7F68F86DA6109 /* STRowLayout.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = STRowLayout.xcconfig; sourceTree = "<group>"; };
+		F8115084FEB9E0F5F81DD8FE17611F35 /* STRowLayout-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "STRowLayout-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0F1035290296ABA844F21A4E84F099F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EBBA3C020474711F3E76BDC76257DD0 /* Foundation.framework in Frameworks */,
+				D81A81FF9212E4D5B96C44C347C17102 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60BDCDE364FDC188B3D8969C8ED6C36C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CF2E3F0B26F544700D55D77A9A700A8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		09FD84811B81EB1E016283D0FC760B9F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0892FF039F38732005C52A1104364AD5 /* libPods-STRowFlowLayout.a */,
+				235ABC32B2A2CA799EB9964D0FE1F34A /* libSTRowLayout.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		34394EC1B55B489092B786453F750A98 /* STRowLayout */ = {
+			isa = PBXGroup;
+			children = (
+				1CB2C5507B6E9F7F73074CCB83633E3B /* STRowLayout.h */,
+				5C49A318272AFAE9BB430B6CB8B192C3 /* STRowLayout.m */,
+				8DAD18F80F6C465700FA5177D37D112E /* Support Files */,
+			);
+			name = STRowLayout;
+			path = STRowLayout;
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E6EE98446B568159EE277B68FD442AF0 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		46EE4ADFB8D2AC74C202CEFB9393B706 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				34394EC1B55B489092B786453F750A98 /* STRowLayout */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				46EE4ADFB8D2AC74C202CEFB9393B706 /* Pods */,
+				09FD84811B81EB1E016283D0FC760B9F /* Products */,
+				86D565F86811EAABFB73158F18223136 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		86D565F86811EAABFB73158F18223136 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9F0D9E22A8BA557FCE7DEB75B8737AC9 /* Pods-STRowFlowLayout */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		8DAD18F80F6C465700FA5177D37D112E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F7FDCEABCE09D08342F7F68F86DA6109 /* STRowLayout.xcconfig */,
+				F8115084FEB9E0F5F81DD8FE17611F35 /* STRowLayout-dummy.m */,
+				E2708FC8DC6300C0E3EADE9389A2D70C /* STRowLayout-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/STRowLayout";
+			sourceTree = "<group>";
+		};
+		9F0D9E22A8BA557FCE7DEB75B8737AC9 /* Pods-STRowFlowLayout */ = {
+			isa = PBXGroup;
+			children = (
+				F2FF6F73B185EB019A4E58AFCCD37913 /* Pods-STRowFlowLayout-acknowledgements.markdown */,
+				BA9D8E7C17A3FE12AAB53F5C6C72AA1C /* Pods-STRowFlowLayout-acknowledgements.plist */,
+				0C052BE401FB7DF153C7F51C5ED0A68C /* Pods-STRowFlowLayout-dummy.m */,
+				8024207A1530CDE097F87EE8A7DA593D /* Pods-STRowFlowLayout-frameworks.sh */,
+				7FAA6C9C53BE689931EE02DD4E1DDD62 /* Pods-STRowFlowLayout-resources.sh */,
+				3C1CB68A8B3CAA4B116DA8A9677D7835 /* Pods-STRowFlowLayout.debug.xcconfig */,
+				A3B15634C38FF485107245C4481A892D /* Pods-STRowFlowLayout.release.xcconfig */,
+			);
+			name = "Pods-STRowFlowLayout";
+			path = "Target Support Files/Pods-STRowFlowLayout";
+			sourceTree = "<group>";
+		};
+		E6EE98446B568159EE277B68FD442AF0 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */,
+				7EC994CDC2D681BA26389F78A7E4B325 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		926455CC3B134E2DD714349CA88222A2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C8C9333B42875EA270D674FE60E9E97 /* STRowLayout.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		429EF089EB05212B4C55D6A65AF1B13A /* Pods-STRowFlowLayout */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACB35E854C7A394EAD4BE21B556ED732 /* Build configuration list for PBXNativeTarget "Pods-STRowFlowLayout" */;
+			buildPhases = (
+				BAF66DC905E5CCAE8A4C8FC10A886390 /* Sources */,
+				60BDCDE364FDC188B3D8969C8ED6C36C /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8C95D7FA0B49D56D403743A61C7E63D5 /* PBXTargetDependency */,
+			);
+			name = "Pods-STRowFlowLayout";
+			productName = "Pods-STRowFlowLayout";
+			productReference = 0892FF039F38732005C52A1104364AD5 /* libPods-STRowFlowLayout.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		8B57B060750692FC652AC19E9CA9B547 /* STRowLayout */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7501FF99D235CAB69EEEABEF92A38322 /* Build configuration list for PBXNativeTarget "STRowLayout" */;
+			buildPhases = (
+				F2C338E2BF131A271AB81FA01939B2C9 /* Sources */,
+				0F1035290296ABA844F21A4E84F099F3 /* Frameworks */,
+				926455CC3B134E2DD714349CA88222A2 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = STRowLayout;
+			productName = STRowLayout;
+			productReference = 235ABC32B2A2CA799EB9964D0FE1F34A /* libSTRowLayout.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 09FD84811B81EB1E016283D0FC760B9F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				429EF089EB05212B4C55D6A65AF1B13A /* Pods-STRowFlowLayout */,
+				8B57B060750692FC652AC19E9CA9B547 /* STRowLayout */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BAF66DC905E5CCAE8A4C8FC10A886390 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50895D13E01A02D1495368A4E0959019 /* Pods-STRowFlowLayout-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2C338E2BF131A271AB81FA01939B2C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAEF5BBD9E70E8C7D5F569CE278D62FE /* STRowLayout-dummy.m in Sources */,
+				DD81E7D3AF9F407344004A94AA3C5242 /* STRowLayout.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8C95D7FA0B49D56D403743A61C7E63D5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = STRowLayout;
+			target = 8B57B060750692FC652AC19E9CA9B547 /* STRowLayout */;
+			targetProxy = 6E4C06FA502014C1D492E9282B4FCC7C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		015A368F878AC3E2CEAE21DDE8026304 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		44CDBB6D11DE06DB64D6268622BDC47E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6A51DFC8D11AA5A0DBB2417129CAB8FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F7FDCEABCE09D08342F7F68F86DA6109 /* STRowLayout.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/STRowLayout/STRowLayout-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		AF7DA7F2AAE6D011DA9986841DDCFCE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F7FDCEABCE09D08342F7F68F86DA6109 /* STRowLayout.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/STRowLayout/STRowLayout-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		C1305E5C121019A3881C809FE4D363ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A3B15634C38FF485107245C4481A892D /* Pods-STRowFlowLayout.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		FDC5FFA3474A376D7873FFC605060FF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C1CB68A8B3CAA4B116DA8A9677D7835 /* Pods-STRowFlowLayout.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				015A368F878AC3E2CEAE21DDE8026304 /* Debug */,
+				44CDBB6D11DE06DB64D6268622BDC47E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7501FF99D235CAB69EEEABEF92A38322 /* Build configuration list for PBXNativeTarget "STRowLayout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF7DA7F2AAE6D011DA9986841DDCFCE5 /* Debug */,
+				6A51DFC8D11AA5A0DBB2417129CAB8FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACB35E854C7A394EAD4BE21B556ED732 /* Build configuration list for PBXNativeTarget "Pods-STRowFlowLayout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDC5FFA3474A376D7873FFC605060FF1 /* Debug */,
+				C1305E5C121019A3881C809FE4D363ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

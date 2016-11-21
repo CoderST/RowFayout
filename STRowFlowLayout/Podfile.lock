@@ -1,0 +1,12 @@
+PODS:
+  - STRowLayout (1.0.1)
+
+DEPENDENCIES:
+  - STRowLayout (~> 1.0.1)
+
+SPEC CHECKSUMS:
+  STRowLayout: 319cabddac815c544670b148304c0b6bdb1c1e9d
+
+PODFILE CHECKSUM: 0f2c64d59aee703dbee303bbf1af8144952db2d2
+
+COCOAPODS: 1.1.1
